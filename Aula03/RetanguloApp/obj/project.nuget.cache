@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dgxFRecPUBKyojBmu0uwE8Zk31THSVNxlPm9cFEXL346oltm1FH3KTtsr1bI12HwETELYp62UbkYnJET15l78w==",
+  "dgSpecHash": "il7HQGzelv7s1sIjwZVWIwVZtSfJZH1kem81A8WTCbKbdgIoxl6HU76x0F8m7O8M0MeFbeVo7wltWAJT5gUhPw==",
   "success": true,
-  "projectFilePath": "C:\\repos\\2022_PEOO_VS_T1\\Aula03\\RetanguloApp\\RetanguloApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Lucas\\Source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Aula03\\RetanguloApp\\RetanguloApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
