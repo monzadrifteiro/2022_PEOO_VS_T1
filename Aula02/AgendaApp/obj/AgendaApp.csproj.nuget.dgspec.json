@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20211011110028\\source\\repos\\PEOO_VS\\Aula02\\AgendaApp\\AgendaApp.csproj": {}
+    "C:\\repos\\2022_PEOO_VS_T1\\Aula02\\AgendaApp\\AgendaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20211011110028\\source\\repos\\PEOO_VS\\Aula02\\AgendaApp\\AgendaApp.csproj": {
+    "C:\\repos\\2022_PEOO_VS_T1\\Aula02\\AgendaApp\\AgendaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20211011110028\\source\\repos\\PEOO_VS\\Aula02\\AgendaApp\\AgendaApp.csproj",
+        "projectUniqueName": "C:\\repos\\2022_PEOO_VS_T1\\Aula02\\AgendaApp\\AgendaApp.csproj",
         "projectName": "AgendaApp",
-        "projectPath": "C:\\Users\\20211011110028\\source\\repos\\PEOO_VS\\Aula02\\AgendaApp\\AgendaApp.csproj",
+        "projectPath": "C:\\repos\\2022_PEOO_VS_T1\\Aula02\\AgendaApp\\AgendaApp.csproj",
         "packagesPath": "C:\\Users\\20211011110028\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20211011110028\\source\\repos\\PEOO_VS\\Aula02\\AgendaApp\\obj\\",
+        "outputPath": "C:\\repos\\2022_PEOO_VS_T1\\Aula02\\AgendaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110028\\AppData\\Roaming\\NuGet\\NuGet.Config",

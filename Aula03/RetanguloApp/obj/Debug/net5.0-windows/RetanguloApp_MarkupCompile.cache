@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Lucas\Source\Repos\monzadrifteiro\2022_PEOO_VS_T1\Aula03\RetanguloApp\obj\Debug\net5.0-windows\
-RetanguloApp_gq00inoq_wpftmp
+C:\repos\2022_PEOO_VS_T1\Aula03\RetanguloApp\obj\Debug\net5.0-windows\
+RetanguloApp
 none
 false
-TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\Lucas\Source\Repos\monzadrifteiro\2022_PEOO_VS_T1\Aula03\RetanguloApp\App.xaml
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+C:\repos\2022_PEOO_VS_T1\Aula03\RetanguloApp\App.xaml
 11407045341
 
-6-1329064568
-386511515088
+41243014298
+193-1891726104
 MainWindow.xaml;
 
-False
+True
 

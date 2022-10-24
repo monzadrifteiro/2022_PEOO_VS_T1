@@ -1,0 +1,24 @@
+﻿<Window x:Class="EquaçãoIIGrauApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquaçãoIIGrauApp"
+        mc:Ignorable="d"
+        Title="EquaçãoIIGrau" Height="250" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="82,31,0,0" Text="A" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="199,31,0,0" Text="B" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="316,31,0,0" Text="C" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtvalora" HorizontalAlignment="Left" Margin="43,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtvalorb" HorizontalAlignment="Left" Margin="159,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtvalorc" HorizontalAlignment="Left" Margin="277,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <Button Content="Calcular" HorizontalAlignment="Center" VerticalAlignment="Top" Width="270" Margin="0,117,0,0" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="72,159,0,0" Text="Delta" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="196,159,0,0" Text="X1" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="313,159,0,0" Text="X2" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="43,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox HorizontalAlignment="Left" Margin="277,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+    </Grid>
+</Window>

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32929.385
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbastecimentoApp", "AbastecimentoApp\AbastecimentoApp.csproj", "{2D81DD20-AE6E-4BA7-9A88-CFF1478E689B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbastecimentoApp", "AbastecimentoApp\AbastecimentoApp.csproj", "{2D81DD20-AE6E-4BA7-9A88-CFF1478E689B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquaçãoIIGrauApp", "EquaçãoIIGrauApp\EquaçãoIIGrauApp.csproj", "{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2D81DD20-AE6E-4BA7-9A88-CFF1478E689B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D81DD20-AE6E-4BA7-9A88-CFF1478E689B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D81DD20-AE6E-4BA7-9A88-CFF1478E689B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
