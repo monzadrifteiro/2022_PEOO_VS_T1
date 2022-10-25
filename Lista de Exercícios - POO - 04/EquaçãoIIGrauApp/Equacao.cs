@@ -11,7 +11,12 @@ namespace EquaçãoIIGrauApp
         private double a, b, c;
         public void SetABC(double a, double b, double c)
         {
-            if (a != 0) this.a = a;
+            if (a != 0)
+            {
+                this.a = a; 
+                this.b = b; 
+                this.c = c;
+            }
         }
         public void GetABC(out double a, out double b, out double c)
         {
@@ -26,7 +31,7 @@ namespace EquaçãoIIGrauApp
         }
         public double Delta()
         {
-            return Math.Sqrt(b) * -4 * a * c;
+            return b * b -4 * a * c;
         }
         public bool X1(out double x)
         {

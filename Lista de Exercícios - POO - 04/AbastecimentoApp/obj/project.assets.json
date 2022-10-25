@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\20211011110028\\.nuget\\packages\\": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\AbastecimentoApp\\AbastecimentoApp.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\AbastecimentoApp\\AbastecimentoApp.csproj",
       "projectName": "AbastecimentoApp",
-      "projectPath": "C:\\repos\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\AbastecimentoApp\\AbastecimentoApp.csproj",
-      "packagesPath": "C:\\Users\\20211011110028\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\AbastecimentoApp\\obj\\",
+      "projectPath": "C:\\Users\\Lucas\\Source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\AbastecimentoApp\\AbastecimentoApp.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lucas\\Source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\AbastecimentoApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\20211011110028\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -51,11 +51,20 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

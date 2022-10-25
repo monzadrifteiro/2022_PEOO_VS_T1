@@ -27,6 +27,9 @@ namespace EquaçãoIIGrauApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Equacao linda = new Equacao();
+            linda.SetABC(double.Parse(txtvalora.Text), double.Parse(txtvalorb.Text), double.Parse(txtvalorc.Text));
+            txtdelta.Text = linda.Delta().ToString();
 
         }
     }

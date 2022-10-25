@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EquaçãoIIGrauApp"
         mc:Ignorable="d"
-        Title="EquaçãoIIGrau" Height="250" Width="400">
+        Title="EquaçãoIIGrau" Height="300" Width="400">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="82,31,0,0" Text="A" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="199,31,0,0" Text="B" TextWrapping="Wrap" VerticalAlignment="Top"/>
@@ -17,8 +17,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="72,159,0,0" Text="Delta" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="196,159,0,0" Text="X1" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="313,159,0,0" Text="X2" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="43,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <TextBox HorizontalAlignment="Left" Margin="277,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtdelta" HorizontalAlignment="Left" Margin="43,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtx1" HorizontalAlignment="Center" Margin="0,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtx2" HorizontalAlignment="Left" Margin="277,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
     </Grid>
 </Window>

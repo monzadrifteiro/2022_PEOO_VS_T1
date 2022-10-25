@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EquaçãoIIGrauApp_en3toh0t_wpftmp
+build_property.ProjectDir = C:\Users\Lucas\Source\Repos\monzadrifteiro\2022_PEOO_VS_T1\Lista de Exercícios - POO - 04\EquaçãoIIGrauApp\
