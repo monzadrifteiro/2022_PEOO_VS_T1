@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EquaçãoIIGrauApp"
         mc:Ignorable="d"
-        Title="EquaçãoIIGrau" Height="300" Width="400">
+        Title="EquaçãoIIGrau" Height="280" Width="400">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="82,31,0,0" Text="A" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="199,31,0,0" Text="B" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="316,31,0,0" Text="C" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtvalora" HorizontalAlignment="Left" Margin="43,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <TextBox x:Name="txtvalorb" HorizontalAlignment="Left" Margin="159,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <TextBox x:Name="txtvalorc" HorizontalAlignment="Left" Margin="277,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <Button Content="Calcular" HorizontalAlignment="Center" VerticalAlignment="Top" Width="270" Margin="0,117,0,0" Click="Button_Click"/>
+        <TextBox x:Name="txtValora" HorizontalAlignment="Left" Margin="43,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtValorb" HorizontalAlignment="Left" Margin="160,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtValorc" HorizontalAlignment="Left" Margin="277,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="270" Margin="68,117,0,0" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="72,159,0,0" Text="Delta" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="196,159,0,0" Text="X1" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,159,0,0" Text="X1" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="313,159,0,0" Text="X2" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtdelta" HorizontalAlignment="Left" Margin="43,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <TextBox x:Name="txtx1" HorizontalAlignment="Center" Margin="0,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
-        <TextBox x:Name="txtx2" HorizontalAlignment="Left" Margin="277,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtDelta" HorizontalAlignment="Left" Margin="43,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtX1" HorizontalAlignment="Left" Margin="160,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtX2" HorizontalAlignment="Left" Margin="277,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
     </Grid>
 </Window>

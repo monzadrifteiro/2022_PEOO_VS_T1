@@ -36,12 +36,14 @@ namespace EquaçãoIIGrauApp
         public bool X1(out double x)
         {
            x = (-b + Math.Sqrt(Delta())) / 2 * a;
-           return true;
+            if (RaizesReais()) return true;
+            else return false;
         }
         public bool X2(out double x)
         {
             x = (-b - Math.Sqrt(Delta())) / 2 * a;
-            return true;
+            if (RaizesReais()) return true;
+            else return false;
         }
     }
 }
