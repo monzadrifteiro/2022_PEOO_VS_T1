@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbastecimentoApp", "AbastecimentoApp\AbastecimentoApp.csproj", "{2D81DD20-AE6E-4BA7-9A88-CFF1478E689B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquaçãoIIGrauApp", "EquaçãoIIGrauApp\EquaçãoIIGrauApp.csproj", "{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquaçãoIIGrauApp", "EquaçãoIIGrauApp\EquaçãoIIGrauApp.csproj", "{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParesÍmparesApp", "ParesÍmparesApp\ParesÍmparesApp.csproj", "{1512A7D7-DEEF-4428-9323-307148B976A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp", "AgendaApp\AgendaApp.csproj", "{BCA59F21-7288-4755-ADFD-33598A557605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetanguloApp", "RetanguloApp\RetanguloApp.csproj", "{A56BC600-A085-4428-BEAE-6AC54598BDC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE008705-0AA8-4A04-A9D6-6B5D58D0A254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1512A7D7-DEEF-4428-9323-307148B976A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1512A7D7-DEEF-4428-9323-307148B976A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1512A7D7-DEEF-4428-9323-307148B976A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1512A7D7-DEEF-4428-9323-307148B976A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA59F21-7288-4755-ADFD-33598A557605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA59F21-7288-4755-ADFD-33598A557605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA59F21-7288-4755-ADFD-33598A557605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA59F21-7288-4755-ADFD-33598A557605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56BC600-A085-4428-BEAE-6AC54598BDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56BC600-A085-4428-BEAE-6AC54598BDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56BC600-A085-4428-BEAE-6AC54598BDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56BC600-A085-4428-BEAE-6AC54598BDC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
