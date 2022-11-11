@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj": {}
+    "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj": {
+    "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj",
         "projectName": "ParesÍmparesApp",
-        "projectPath": "C:\\Users\\Lucas\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\obj\\",
+        "projectPath": "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\ParesÍmparesApp.csproj",
+        "packagesPath": "C:\\Users\\20211011110028\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\Lista de Exercícios - POO - 04\\ParesÍmparesApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20211011110028\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }
