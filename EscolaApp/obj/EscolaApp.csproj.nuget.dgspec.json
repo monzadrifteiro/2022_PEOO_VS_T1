@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj": {}
+    "C:\\Users\\20211011110028\\source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj": {
+    "C:\\Users\\20211011110028\\source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110028\\source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj",
         "projectName": "EscolaApp",
-        "projectPath": "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj",
+        "projectPath": "C:\\Users\\20211011110028\\source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\EscolaApp.csproj",
         "packagesPath": "C:\\Users\\20211011110028\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20211011110028\\source\\repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\obj\\",
+        "outputPath": "C:\\Users\\20211011110028\\source\\Repos\\monzadrifteiro\\2022_PEOO_VS_T1\\EscolaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110028\\AppData\\Roaming\\NuGet\\NuGet.Config",

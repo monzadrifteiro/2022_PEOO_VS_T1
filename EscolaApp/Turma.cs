@@ -9,8 +9,8 @@ namespace EscolaApp
     class Turma
     {
         public int Id { get; set; }
-        public int Curso { get; set; }
-        public int Descricao { get; set; }
+        public string Curso { get; set; }
+        public string Descricao { get; set; }
         public int AnoLetivo { get; set; }
         public override string ToString()
         {

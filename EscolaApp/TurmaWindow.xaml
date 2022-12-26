@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="TurmaWindow" Height="200" Width="300">
+        Title="TurmaWindow" Height="200" Width="400">
     <Grid>
-        
+
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="15,32,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtCurso" HorizontalAlignment="Left" Margin="70,32,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="111"/>
+        <TextBox Name="txtTurma" HorizontalAlignment="Left" Margin="194,32,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="94"/>
+        <TextBox Name="txtAno" HorizontalAlignment="Left" Margin="307,32,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="110,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20"><Run Language="pt-br" Text="Curso"/><LineBreak/><Run Language="pt-br"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="30,7,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="224,7,0,0" Text="Turma" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="311,7,0,0" Text="Ano Letivo" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="15,57,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="60,57,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="105,57,0,0" VerticalAlignment="Top" Width="50"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="160,57,0,0" VerticalAlignment="Top" Width="40"/>
+        <ListBox Name="listTurmas" Margin="10,92,15,15" />
+
     </Grid>
 </Window>
