@@ -53,7 +53,7 @@ namespace EscolaApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EscolaApp_rwjzcer2_wpftmp;component/diariowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EscolaApp_zhrzm2ag_wpftmp;component/diariowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DiarioWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

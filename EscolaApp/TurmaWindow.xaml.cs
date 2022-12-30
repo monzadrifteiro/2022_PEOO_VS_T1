@@ -71,5 +71,17 @@ namespace EscolaApp
             // Lista a turma inserida
             ListarClick(sender, e);
         }
+
+        private void listTurmas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listTurmas.SelectedItem != null)
+            {
+                Turma obj = (Turma)listTurmas.SelectedItem;
+                txtId.Text = obj.Id.ToString();
+                txtCurso.Text = obj.Curso;
+                txtTurma.Text = obj.Descricao;
+                txtAno.Text = obj.AnoLetivo.ToString();
+            }
+        }
     }
 }

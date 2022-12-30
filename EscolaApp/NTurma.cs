@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace EscolaApp
 {
@@ -12,13 +14,16 @@ namespace EscolaApp
         public static void Inserir(Turma t)
         {
             turmas.Add(t);
+            Salvar();
         }
         public static List<Turma> Listar()
         {
+            Abrir();
             return turmas;
         }
         public static void Atualizar(Turma t)
         {
+            Abrir();
             // Percorrer a lista de turma procurando o id informado (t.Id)
             foreach(Turma obj in turmas)
                 if(obj.Id == t.Id)
@@ -28,9 +33,11 @@ namespace EscolaApp
                     obj.AnoLetivo = t.AnoLetivo;
 
                 }
+            Salvar();
         }
         public static void Excluir(Turma t)
         {
+            Abrir();
             Turma x = null;
             // Percorrer a lista de turma procurando o id informado (t.Id)
             foreach (Turma obj in turmas)
@@ -42,6 +49,37 @@ namespace EscolaApp
             {
                 turmas.Remove(x);
             }
+            Salvar();
+        }
+        public static void Abrir()
+        {
+            StreamReader f = null;
+            try
+            {
+                // Objeto que transforma uma lista de turmas em um texto em Xml
+                XmlSerializer xml = new XmlSerializer(typeof(List<Turma>));
+                // Objeto que abre texto em um arquivo
+                f = new StreamReader("./turmas.xml");
+                // Chama a operação de desserialização informando o destino do texto XML
+                turmas = (List<Turma>)xml.Deserialize(f);
+            }
+            catch
+            {
+                turmas = new List<Turma>();
+            }
+            // Fecha o arquivo
+            if(f != null) f.Close();
+        }
+        public static void Salvar()
+        {
+            // Objeto que transforma uma lista de turmas em um texto em Xml
+            XmlSerializer xml = new XmlSerializer(typeof(List<Turma>));
+            // Objeto que grava um texto em um arquivo
+            StreamWriter f = new StreamWriter("./turmas.xml", false);
+            // Chama a operação de serialização informando o destino do texto XML
+            xml.Serialize(f, turmas);
+            // Fecha o arquivo
+            f.Close();
         }
     }
 }

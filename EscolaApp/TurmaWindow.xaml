@@ -20,7 +20,7 @@
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="60,57,0,0" VerticalAlignment="Top" Width="40"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="105,57,0,0" VerticalAlignment="Top" Width="50"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="160,57,0,0" VerticalAlignment="Top" Width="40"/>
-        <ListBox Name="listTurmas" Margin="10,92,15,15" />
+        <ListBox Name="listTurmas" Margin="10,92,15,15" SelectionChanged="listTurmas_SelectionChanged" />
 
     </Grid>
 </Window>
