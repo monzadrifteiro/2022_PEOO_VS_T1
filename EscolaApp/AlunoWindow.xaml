@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="AlunoWindow" Height="200" Width="300">
+        Title="AlunoWindow" Height="300" Width="410">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="56,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17"><Run Language="pt-br" Text="Id"/><LineBreak/><Run Language="pt-br"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="306,18,0,0" TextWrapping="Wrap" Text="Matricula" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="47,69,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,72,0,0" TextWrapping="Wrap" Text="IdTurma" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="12,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Center" Margin="0,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Margin="281,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="12,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtIdTurma" HorizontalAlignment="Center" Margin="0,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="12,20,0,0" VerticalAlignment="Center"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Center"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="104,20,0,0" VerticalAlignment="Center"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="166,20,0,0" VerticalAlignment="Center"/>
+        <ListBox Name="listAlunos" Margin="12,170,12,18" SelectionChanged="listAlunos_SelectionChanged"/>
+
     </Grid>
 </Window>
