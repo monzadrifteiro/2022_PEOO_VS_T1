@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="AlunoWindow" Height="300" Width="410">
+        Title="Cadastro de Alunos" Height="300" Width="410">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="56,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17"><Run Language="pt-br" Text="Id"/><LineBreak/><Run Language="pt-br"/></TextBlock>
         <TextBlock HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top"/>

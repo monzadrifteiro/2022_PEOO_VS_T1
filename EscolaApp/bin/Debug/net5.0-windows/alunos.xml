@@ -2,23 +2,44 @@
 <ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Aluno>
     <Id>1</Id>
-    <Nome>aff</Nome>
-    <Matricula>asfsfa</Matricula>
-    <Email>sdgfsdg</Email>
-    <IdTurma>23</IdTurma>
+    <Nome>Gomes</Nome>
+    <Matricula>20221011110028</Matricula>
+    <Email>gomes@gmail.com</Email>
+    <IdTurma>1</IdTurma>
   </Aluno>
   <Aluno>
-    <Id>1</Id>
-    <Nome>aff</Nome>
-    <Matricula>asfsfa</Matricula>
-    <Email>sdgfsdg</Email>
-    <IdTurma>23</IdTurma>
+    <Id>2</Id>
+    <Nome>Jomes</Nome>
+    <Matricula>20211011110029</Matricula>
+    <Email>jomes@gmail.com</Email>
+    <IdTurma>2</IdTurma>
   </Aluno>
   <Aluno>
-    <Id>1</Id>
-    <Nome>aff</Nome>
-    <Matricula>asfsfa</Matricula>
-    <Email>sdgfsdg</Email>
-    <IdTurma>23</IdTurma>
+    <Id>3</Id>
+    <Nome>Vomes</Nome>
+    <Matricula>20211011110030</Matricula>
+    <Email>vomes@gmail.com</Email>
+    <IdTurma>2</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>4</Id>
+    <Nome>Komes</Nome>
+    <Matricula>20211011110031</Matricula>
+    <Email>komes@gmail.com</Email>
+    <IdTurma>2</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>5</Id>
+    <Nome>Lomes</Nome>
+    <Matricula>20191011110023</Matricula>
+    <Email>Lomes@gmail.com</Email>
+    <IdTurma>4</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>8</Id>
+    <Nome>homes</Nome>
+    <Matricula>20211011110011</Matricula>
+    <Email>homes@gmail.com</Email>
+    <IdTurma>2</IdTurma>
   </Aluno>
 </ArrayOfAluno>

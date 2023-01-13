@@ -2,8 +2,26 @@
 <ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Turma>
     <Id>1</Id>
-    <Curso>asf</Curso>
-    <Descricao>asf</Descricao>
-    <AnoLetivo>131</AnoLetivo>
+    <Curso>Informática</Curso>
+    <Descricao>1 Ano</Descricao>
+    <AnoLetivo>2022</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>2</Id>
+    <Curso>Informática</Curso>
+    <Descricao>2 Ano</Descricao>
+    <AnoLetivo>2022</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>3</Id>
+    <Curso>Informática</Curso>
+    <Descricao>3 Ano</Descricao>
+    <AnoLetivo>2022</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>4</Id>
+    <Curso>Informática</Curso>
+    <Descricao>4 Ano</Descricao>
+    <AnoLetivo>2022</AnoLetivo>
   </Turma>
 </ArrayOfTurma>
