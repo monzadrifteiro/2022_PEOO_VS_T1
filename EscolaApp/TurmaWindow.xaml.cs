@@ -52,9 +52,9 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
-            // Inserir a turma na lista de turmas
+            // Atualizar a turma da lista de turmas
             NTurma.Atualizar(t);
-            // Lista a turma inserida
+            // Lista as turmas inseridas
             ListarClick(sender, e);
         }
 
@@ -66,9 +66,9 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
-            // Inserir a turma na lista de turmas
+            // Excluir a turma da lista de turmas
             NTurma.Excluir(t);
-            // Lista a turma inserida
+            // Lista as turmas inseridas
             ListarClick(sender, e);
         }
 

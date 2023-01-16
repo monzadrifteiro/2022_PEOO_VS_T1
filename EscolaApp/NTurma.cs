@@ -39,7 +39,7 @@ namespace EscolaApp
                     obj.Curso = t.Curso;
                     obj.Descricao = t.Descricao;
                     obj.AnoLetivo = t.AnoLetivo;
-
+                    obj.IdProfessor = t.AnoLetivo;
                 }
             Salvar();
         }
@@ -88,6 +88,11 @@ namespace EscolaApp
             xml.Serialize(f, turmas);
             // Fecha o arquivo
             f.Close();
+        }
+        public static void CadastrarProfessor(Professor p, Turma t)
+        {
+            t.IdProfessor = p.Id;
+            Atualizar(t);
         }
     }
 }

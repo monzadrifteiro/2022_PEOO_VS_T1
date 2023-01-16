@@ -101,7 +101,7 @@ namespace EscolaApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EscolaApp_cyrrgjof_wpftmp;component/alunowindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EscolaApp_zhrzm2ag_wpftmp;component/alunowindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AlunoWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

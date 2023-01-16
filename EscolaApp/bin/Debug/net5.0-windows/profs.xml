@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProfessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Professor>
+    <Id>1</Id>
+    <Nome>Eduardo Sinedino</Nome>
+    <Matricula>1789</Matricula>
+    <Area>INSS</Area>
+  </Professor>
+  <Professor>
+    <Id>2</Id>
+    <Nome>Elizeu</Nome>
+    <Matricula>666</Matricula>
+    <Area>Morte</Area>
+  </Professor>
+</ArrayOfProfessor>
