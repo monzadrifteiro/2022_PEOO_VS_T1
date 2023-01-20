@@ -19,13 +19,13 @@
     <Curso>Informática</Curso>
     <Descricao>3 ano</Descricao>
     <AnoLetivo>2022</AnoLetivo>
-    <IdProfessor>2</IdProfessor>
+    <IdProfessor>1</IdProfessor>
   </Turma>
   <Turma>
     <Id>4</Id>
     <Curso>Informática</Curso>
     <Descricao>4 ano</Descricao>
     <AnoLetivo>2022</AnoLetivo>
-    <IdProfessor>1</IdProfessor>
+    <IdProfessor>2</IdProfessor>
   </Turma>
 </ArrayOfTurma>

@@ -60,5 +60,11 @@ namespace EscolaApp
             Cad_Prof_TurmaWindow c = new Cad_Prof_TurmaWindow();
             c.ShowDialog();
         }
+
+        private void ListTurmasProf_Click(object sender, RoutedEventArgs e)
+        {
+            List_Turma_ProfWindow l = new List_Turma_ProfWindow();
+            l.ShowDialog();
+        }
     }
 }

@@ -94,5 +94,15 @@ namespace EscolaApp
             t.IdProfessor = p.Id;
             Atualizar(t);
         }
+        public static List<Turma> Listar(Professor p)
+        {
+            Abrir();
+            List<Turma> turmaprof = new List<Turma>();
+            foreach (Turma obj in turmas)
+            {
+                if (obj.IdProfessor == p.Id) turmaprof.Add(obj);
+            }
+            return turmaprof;
+        }
     }
 }

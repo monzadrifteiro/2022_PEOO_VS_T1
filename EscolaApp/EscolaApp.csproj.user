@@ -16,6 +16,9 @@
     <Compile Update="DiarioWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="List_Turma_ProfWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MatriculaWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DiarioWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List_Turma_ProfWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
