@@ -16,6 +16,7 @@
             <MenuItem Header="Operações">
                 <MenuItem Header="Matricular Aluno..." Click="Matricula_Click" />
                 <MenuItem Header="Diário da Turma..." Click="Diario_Click" />
+                <MenuItem Header="Cadastrar Professor" Click="Cadastro_Click" />
             </MenuItem>
         </Menu>
         <Button Visibility ="Hidden" Click="Turma_Click" Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="16,15,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>

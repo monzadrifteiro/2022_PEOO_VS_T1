@@ -54,5 +54,11 @@ namespace EscolaApp
             ProfessorWindow p = new ProfessorWindow();
             p.ShowDialog();
         }
+
+        private void Cadastro_Click(object sender, RoutedEventArgs e)
+        {
+            Cad_Prof_TurmaWindow c = new Cad_Prof_TurmaWindow();
+            c.ShowDialog();
+        }
     }
 }

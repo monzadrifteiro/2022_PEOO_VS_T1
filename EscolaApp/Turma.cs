@@ -16,7 +16,7 @@ namespace EscolaApp
 
         public override string ToString()
         {
-            return $"{Id} - {Curso} - {Descricao} - {AnoLetivo}";
+            return $"{Id} - {Curso} - {Descricao} - {AnoLetivo} - {IdProfessor}";
         }
 
     }

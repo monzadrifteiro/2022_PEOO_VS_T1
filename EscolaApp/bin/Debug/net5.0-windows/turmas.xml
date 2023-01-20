@@ -3,25 +3,29 @@
   <Turma>
     <Id>1</Id>
     <Curso>Informática</Curso>
-    <Descricao>1 Ano</Descricao>
+    <Descricao>1 ano</Descricao>
     <AnoLetivo>2022</AnoLetivo>
+    <IdProfessor>1</IdProfessor>
   </Turma>
   <Turma>
     <Id>2</Id>
     <Curso>Informática</Curso>
-    <Descricao>2 Ano</Descricao>
+    <Descricao>2 ano</Descricao>
     <AnoLetivo>2022</AnoLetivo>
+    <IdProfessor>2</IdProfessor>
   </Turma>
   <Turma>
     <Id>3</Id>
     <Curso>Informática</Curso>
-    <Descricao>3 Ano</Descricao>
+    <Descricao>3 ano</Descricao>
     <AnoLetivo>2022</AnoLetivo>
+    <IdProfessor>2</IdProfessor>
   </Turma>
   <Turma>
     <Id>4</Id>
     <Curso>Informática</Curso>
-    <Descricao>4 Ano</Descricao>
+    <Descricao>4 ano</Descricao>
     <AnoLetivo>2022</AnoLetivo>
+    <IdProfessor>1</IdProfessor>
   </Turma>
 </ArrayOfTurma>

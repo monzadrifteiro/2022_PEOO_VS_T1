@@ -23,7 +23,6 @@ namespace EscolaApp
         {
             InitializeComponent();
         }
-
         private void InserirClick(object sender, RoutedEventArgs e)
         {
             // Novo objeto com os dados da turma que será inserida
@@ -32,6 +31,7 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
+            t.IdProfessor = int.Parse(txtIdProfessor.Text);
             // Inserir a turma na lista de turmas
             NTurma.Inserir(t);
             // Lista a turma inserida
@@ -52,6 +52,7 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
+            t.IdProfessor = int.Parse(txtIdProfessor.Text);
             // Atualizar a turma da lista de turmas
             NTurma.Atualizar(t);
             // Lista as turmas inseridas
@@ -66,6 +67,7 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
+            t.IdProfessor = int.Parse(txtIdProfessor.Text);
             // Excluir a turma da lista de turmas
             NTurma.Excluir(t);
             // Lista as turmas inseridas
@@ -81,6 +83,7 @@ namespace EscolaApp
                 txtCurso.Text = obj.Curso;
                 txtTurma.Text = obj.Descricao;
                 txtAno.Text = obj.AnoLetivo.ToString();
+                txtIdProfessor.Text = obj.IdProfessor.ToString();
             }
         }
     }

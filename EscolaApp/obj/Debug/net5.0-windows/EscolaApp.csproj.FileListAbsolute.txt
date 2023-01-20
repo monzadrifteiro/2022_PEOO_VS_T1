@@ -62,3 +62,7 @@ C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\ob
 C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\ProfessorWindow.baml
 C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.g.cs
 C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.baml
+C:\Users\Lucas\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.g.cs
+C:\Users\Lucas\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\ProfessorWindow.g.cs
+C:\Users\Lucas\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.baml
+C:\Users\Lucas\source\repos\monzadrifteiro\2022_PEOO_VS_T1\EscolaApp\obj\Debug\net5.0-windows\ProfessorWindow.baml

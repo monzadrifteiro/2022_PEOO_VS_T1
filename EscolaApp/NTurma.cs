@@ -39,7 +39,7 @@ namespace EscolaApp
                     obj.Curso = t.Curso;
                     obj.Descricao = t.Descricao;
                     obj.AnoLetivo = t.AnoLetivo;
-                    obj.IdProfessor = t.AnoLetivo;
+                    obj.IdProfessor = t.IdProfessor;
                 }
             Salvar();
         }
