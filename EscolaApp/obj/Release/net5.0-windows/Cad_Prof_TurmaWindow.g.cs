@@ -69,7 +69,7 @@ namespace EscolaApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EscolaApp_zhrzm2ag_wpftmp;component/cad_prof_turmawindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EscolaApp;component/cad_prof_turmawindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Cad_Prof_TurmaWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

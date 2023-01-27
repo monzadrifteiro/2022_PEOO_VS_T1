@@ -1,0 +1,24 @@
+﻿<Window x:Class="ClinicaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClinicaApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="350">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Medico..." Click="Medico_Click" />
+                <MenuItem Header="Consulta..." Click="Consulta_Click" />
+                <MenuItem Header="Paciente..." Click="Paciente_Click" />
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Cadastrar Medico..." Click="Cad_Medico_Click" />
+                <MenuItem Header="Cadastrar Paciente..." Click="Cad_Paciente_Click" />
+                <MenuItem Header="Consultas do Medico..." Click="Consultas_Medico_Click" />
+                <MenuItem Header="Consultas do Paciente..." Click="Consultas_Paciente_Click" />
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

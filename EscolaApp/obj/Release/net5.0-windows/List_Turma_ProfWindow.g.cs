@@ -69,7 +69,7 @@ namespace EscolaApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EscolaApp_zhrzm2ag_wpftmp;component/list_turma_profwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EscolaApp;component/list_turma_profwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\List_Turma_ProfWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

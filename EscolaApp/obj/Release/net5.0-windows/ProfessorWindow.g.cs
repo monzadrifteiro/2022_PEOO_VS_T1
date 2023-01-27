@@ -93,7 +93,7 @@ namespace EscolaApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EscolaApp_zhrzm2ag_wpftmp;component/professorwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EscolaApp;component/professorwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ProfessorWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
