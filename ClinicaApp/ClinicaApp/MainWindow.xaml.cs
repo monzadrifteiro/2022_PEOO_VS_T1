@@ -45,22 +45,26 @@ namespace ClinicaApp
 
         private void Cad_Medico_Click(object sender, RoutedEventArgs e)
         {
-
+            Cad_Medico_ConsultaWindow c = new Cad_Medico_ConsultaWindow();
+            c.ShowDialog();
         }
 
         private void Cad_Paciente_Click(object sender, RoutedEventArgs e)
         {
-
+            Cad_Paciente_ConsultaWindow c = new Cad_Paciente_ConsultaWindow();
+            c.ShowDialog();
         }
 
         private void Consultas_Medico_Click(object sender, RoutedEventArgs e)
         {
-
+            Consultas_MedicoWindow c = new Consultas_MedicoWindow();
+            c.ShowDialog();
         }
 
         private void Consultas_Paciente_Click(object sender, RoutedEventArgs e)
         {
-
+            Consultas_PacienteWindow c = new Consultas_PacienteWindow();
+            c.ShowDialog();
         }
     }
 }

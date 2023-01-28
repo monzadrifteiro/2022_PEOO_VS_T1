@@ -11,16 +11,16 @@
         <TextBlock HorizontalAlignment="Left" Margin="120,25,0,0" Text="IdMedico" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="203,25,0,0" Text="IdPaciente" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="303,25,0,0" Text="Data" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="385,25,0,0" Text="Enfermidade" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="26,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
-        <TextBox HorizontalAlignment="Left" Margin="110,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
-        <TextBox HorizontalAlignment="Left" Margin="195,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
-        <TextBox HorizontalAlignment="Left" Margin="280,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
-        <TextBox HorizontalAlignment="Left" Margin="365,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
-        <Button Content="Inserir" HorizontalAlignment="Left" Margin="26,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Listar" HorizontalAlignment="Left" Margin="70,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Atualizar" HorizontalAlignment="Left" Margin="110,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Excluir" HorizontalAlignment="Left" Margin="169,85,0,0" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="75" Margin="25,117,0,0" VerticalAlignment="Top" Width="446"/>
+        <TextBlock HorizontalAlignment="Left" Margin="398,25,0,0" Text="Horario" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="26,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtIdMedico" HorizontalAlignment="Left" Margin="110,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtIdPaciente" HorizontalAlignment="Left" Margin="195,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtData" HorizontalAlignment="Left" Margin="280,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtHorario" HorizontalAlignment="Left" Margin="365,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="26,85,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="70,85,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="110,85,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="169,85,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listConsultas" HorizontalAlignment="Left" Height="75" Margin="25,117,0,0" VerticalAlignment="Top" Width="446"/>
     </Grid>
 </Window>

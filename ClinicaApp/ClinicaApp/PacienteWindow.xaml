@@ -11,14 +11,14 @@
         <TextBlock HorizontalAlignment="Left" Margin="155,25,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="271,25,0,0" Text="Idade" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="379,25,0,0" Text="Enfermidade" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="26,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
-        <TextBox HorizontalAlignment="Left" Margin="111,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="241,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
-        <TextBox HorizontalAlignment="Left" Margin="352,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Inserir" HorizontalAlignment="Left" Margin="26,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Listar" HorizontalAlignment="Left" Margin="70,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Atualizar" HorizontalAlignment="Left" Margin="110,85,0,0" VerticalAlignment="Top"/>
-        <Button Content="Excluir" HorizontalAlignment="Left" Margin="169,85,0,0" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="80" Margin="25,117,0,0" VerticalAlignment="Top" Width="446"/>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="26,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtNome" HorizontalAlignment="Left" Margin="111,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtIdade" HorizontalAlignment="Left" Margin="241,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="txtEnfermidade" HorizontalAlignment="Left" Margin="352,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="26,85,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="70,85,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="110,85,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="169,85,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="listPacientes" HorizontalAlignment="Left" Height="80" Margin="25,117,0,0" VerticalAlignment="Top" Width="446"/>
     </Grid>
 </Window>
