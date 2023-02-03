@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfMedico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Medico>
+    <Id>1</Id>
+    <Nome>afasafsaf</Nome>
+    <Area>safsaf</Area>
+    <Telefone>sasfaf</Telefone>
+  </Medico>
+  <Medico>
     <Id>2</Id>
-    <Nome>gomes</Nome>
-    <Area>cosca</Area>
-    <Telefone>gabras</Telefone>
+    <Nome>112</Nome>
+    <Area>131</Area>
+    <Telefone>131</Telefone>
+  </Medico>
+  <Medico>
+    <Id>3</Id>
+    <Nome>$$##@</Nome>
+    <Area>$$#@!@</Area>
+    <Telefone>#$$#@@</Telefone>
   </Medico>
 </ArrayOfMedico>

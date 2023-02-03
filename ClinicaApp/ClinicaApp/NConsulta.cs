@@ -78,5 +78,35 @@ namespace ClinicaApp
             xml.Serialize(f, consultas);
             f.Close();
         }
+        public static void CadastrarMedico(Medico m, Consulta c)
+        {
+            c.IdMedico = m.Id;
+            Atualizar(c);
+        }
+        public static List<Consulta> Listar(Medico m)
+        {
+            Abrir();
+            List<Consulta> consultasmedico = new List<Consulta>();
+            foreach(Consulta obj in consultas)
+            {
+                if (obj.IdMedico == m.Id) consultasmedico.Add(obj);
+            }
+            return consultasmedico;
+        }
+        public static void CadastrarPaciente(Paciente p, Consulta c)
+        {
+            c.IdPaciente = p.Id;
+            Atualizar(c);
+        }
+        public static List<Consulta> Listar(Paciente p)
+        {
+            Abrir();
+            List<Consulta> consultaspaciente = new List<Consulta>();
+            foreach(Consulta obj in consultas)
+            {
+                if (obj.IdPaciente == p.Id) consultaspaciente.Add(obj);
+            }
+            return consultaspaciente;
+        }
     }
 }

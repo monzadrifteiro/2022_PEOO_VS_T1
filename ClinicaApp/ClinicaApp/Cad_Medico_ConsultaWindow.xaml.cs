@@ -26,12 +26,25 @@ namespace ClinicaApp
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listMedicos.ItemsSource = null;
+            listMedicos.ItemsSource = NMedico.Listar();
+            listConsultas.ItemsSource = null;
+            listConsultas.ItemsSource = NConsulta.Listar();
         }
 
         private void CadastrarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listMedicos.SelectedItem != null && listConsultas.SelectedItem != null)
+            {
+                Medico m = (Medico)listMedicos.SelectedItem;
+                Consulta c = (Consulta)listConsultas.SelectedItem;
+                NConsulta.CadastrarMedico(m, c);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um medico e uma consulta");
+            }
         }
     }
 }
