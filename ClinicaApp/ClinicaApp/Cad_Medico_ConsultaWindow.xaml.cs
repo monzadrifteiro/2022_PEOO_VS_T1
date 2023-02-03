@@ -43,7 +43,7 @@ namespace ClinicaApp
             }
             else
             {
-                MessageBox.Show("É preciso selecionar um medico e uma consulta");
+                MessageBox.Show("É preciso selecionar um médico e uma consulta");
             }
         }
     }
