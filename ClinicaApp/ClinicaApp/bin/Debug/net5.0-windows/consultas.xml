@@ -2,9 +2,30 @@
 <ArrayOfConsulta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Consulta>
     <Id>1</Id>
-    <IdMedico>3</IdMedico>
-    <IdPaciente>2</IdPaciente>
+    <IdMedico>2</IdMedico>
+    <IdPaciente>1</IdPaciente>
     <Data>20/02/2023</Data>
     <Horario>18:10</Horario>
+  </Consulta>
+  <Consulta>
+    <Id>2</Id>
+    <IdMedico>1</IdMedico>
+    <IdPaciente>2</IdPaciente>
+    <Data>dxgxd</Data>
+    <Horario>dxgxdgdx</Horario>
+  </Consulta>
+  <Consulta>
+    <Id>3</Id>
+    <IdMedico>3</IdMedico>
+    <IdPaciente>1</IdPaciente>
+    <Data>dxgdfxfxdfxd</Data>
+    <Horario>dxgxdgdx</Horario>
+  </Consulta>
+  <Consulta>
+    <Id>4</Id>
+    <IdMedico>8</IdMedico>
+    <IdPaciente>2</IdPaciente>
+    <Data>sfsf</Data>
+    <Horario>fafaf</Horario>
   </Consulta>
 </ArrayOfConsulta>

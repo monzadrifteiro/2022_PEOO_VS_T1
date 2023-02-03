@@ -22,11 +22,22 @@ namespace ClinicaApp
         public Consultas_PacienteWindow()
         {
             InitializeComponent();
+            listPacientes.ItemsSource = NPaciente.Listar();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listPacientes.SelectedItem != null)
+            {
+                Paciente p = (Paciente)listPacientes.SelectedItem;
+                listConsultas.ItemsSource = null;
+                listConsultas.ItemsSource = NConsulta.Listar(p);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar uma consulta");
+            }
+        }
         }
     }
-}
+
