@@ -69,3 +69,4 @@ C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\ClinicaApp\C
 C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\ClinicaApp\ClinicaApp\obj\Debug\net5.0-windows\ref\ClinicaApp.dll
 C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\ClinicaApp\ClinicaApp\obj\Debug\net5.0-windows\ClinicaApp.pdb
 C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\ClinicaApp\ClinicaApp\obj\Debug\net5.0-windows\ClinicaApp.genruntimeconfig.cache
+C:\Users\20211011110028\source\repos\monzadrifteiro\2022_PEOO_VS_T1\ClinicaApp\ClinicaApp\obj\Debug\net5.0-windows\ClinicaApp.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfConsulta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Consulta>
+    <Id>1</Id>
+    <IdMedico>4</IdMedico>
+    <IdPaciente>2</IdPaciente>
+    <Data>20/02/2023</Data>
+    <Horario>18:10</Horario>
+  </Consulta>
+</ArrayOfConsulta>

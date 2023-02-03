@@ -26,22 +26,57 @@ namespace ClinicaApp
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-
+            Consulta c = new Consulta();
+            c.Id = int.Parse(txtId.Text);
+            c.IdMedico = int.Parse(txtIdMedico.Text);
+            c.IdPaciente = int.Parse(txtIdPaciente.Text);
+            c.Data = txtData.Text;
+            c.Horario = txtHorario.Text;
+            NConsulta.Inserir(c);
+            ListarClick(sender, e);
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listConsultas.ItemsSource = null;
+            listConsultas.ItemsSource = NConsulta.Listar();
         }
 
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
-
+            Consulta c = new Consulta();
+            c.Id = int.Parse(txtId.Text);
+            c.IdMedico = int.Parse(txtIdMedico.Text);
+            c.IdPaciente = int.Parse(txtIdPaciente.Text);
+            c.Data = txtData.Text;
+            c.Horario = txtHorario.Text;
+            NConsulta.Atualizar(c);
+            ListarClick(sender, e);
         }
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
+            Consulta c = new Consulta();
+            c.Id = int.Parse(txtId.Text);
+            c.IdMedico = int.Parse(txtIdMedico.Text);
+            c.IdPaciente = int.Parse(txtIdPaciente.Text);
+            c.Data = txtData.Text;
+            c.Horario = txtHorario.Text;
+            NConsulta.Excluir(c);
+            ListarClick(sender, e);
+        }
 
+        private void listConsultas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listConsultas.SelectedItem != null)
+            {
+                Consulta obj = (Consulta)listConsultas.SelectedItem;
+                txtId.Text = obj.Id.ToString();
+                txtIdMedico.Text = obj.IdMedico.ToString();
+                txtIdPaciente.Text = obj.IdPaciente.ToString();
+                txtData.Text = obj.Data;
+                txtHorario.Text = obj.Horario;
+            }
         }
     }
 }

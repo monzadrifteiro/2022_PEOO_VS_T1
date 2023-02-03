@@ -21,6 +21,6 @@
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="70,85,0,0" VerticalAlignment="Top"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="110,85,0,0" VerticalAlignment="Top"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="169,85,0,0" VerticalAlignment="Top"/>
-        <ListBox Name="listConsultas" HorizontalAlignment="Left" Height="75" Margin="25,117,0,0" VerticalAlignment="Top" Width="446"/>
+        <ListBox Name="listConsultas" HorizontalAlignment="Left" Height="75" Margin="25,117,0,0" VerticalAlignment="Top" Width="446" SelectionChanged="listConsultas_SelectionChanged"/>
     </Grid>
 </Window>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPaciente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paciente>
+    <Id>1</Id>
+    <Nome>Jomes da Silva</Nome>
+    <Idade>77</Idade>
+    <Enfermidade>Dor na coluna</Enfermidade>
+  </Paciente>
+  <Paciente>
+    <Id>2</Id>
+    <Nome>Gomes da Silva</Nome>
+    <Idade>6</Idade>
+    <Enfermidade>Corte no queixo</Enfermidade>
+  </Paciente>
+</ArrayOfPaciente>
