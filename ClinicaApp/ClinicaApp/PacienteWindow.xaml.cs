@@ -65,11 +65,14 @@ namespace ClinicaApp
 
         private void listPacientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Paciente obj = (Paciente)listPacientes.SelectedItem;
-            txtId.Text = obj.Id.ToString();
-            txtNome.Text = obj.Nome;
-            txtIdade.Text = obj.Idade.ToString();
-            txtEnfermidade.Text = obj.Enfermidade;
+            if(listPacientes.SelectedItem != null)
+            {
+                Paciente obj = (Paciente)listPacientes.SelectedItem;
+                txtId.Text = obj.Id.ToString();
+                txtNome.Text = obj.Nome;
+                txtIdade.Text = obj.Idade.ToString();
+                txtEnfermidade.Text = obj.Enfermidade;
+            }
         }
     }
 }

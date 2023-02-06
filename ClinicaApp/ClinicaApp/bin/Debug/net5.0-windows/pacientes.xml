@@ -2,14 +2,20 @@
 <ArrayOfPaciente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Paciente>
     <Id>1</Id>
-    <Nome>Jomes da Silva</Nome>
-    <Idade>77</Idade>
-    <Enfermidade>Dor na coluna</Enfermidade>
+    <Nome>José Gomes</Nome>
+    <Idade>73</Idade>
+    <Enfermidade>Dor aguda no pé</Enfermidade>
   </Paciente>
   <Paciente>
     <Id>2</Id>
-    <Nome>Gomes da Silva</Nome>
-    <Idade>6</Idade>
-    <Enfermidade>Corte no queixo</Enfermidade>
+    <Nome>Enzo Fernandes</Nome>
+    <Idade>5</Idade>
+    <Enfermidade>Gripe com tosse seca</Enfermidade>
+  </Paciente>
+  <Paciente>
+    <Id>3</Id>
+    <Nome>Felipe Gabriel</Nome>
+    <Idade>23</Idade>
+    <Enfermidade>Tratamento no joelho</Enfermidade>
   </Paciente>
 </ArrayOfPaciente>
