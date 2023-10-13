@@ -15,10 +15,10 @@ O WPF oferece recursos avançados de gráficos, animações, estilos e controle 
 ## 🖱️ Aplicativos desenvolvidos:
 
 - [AgendaApp](AgendaApp)
-- [RetanguloApp](RetanguloApp)
-- [AbastecimentoApp](AbastecimentoApp)
-- [EquaçãoIIGrauApp](EquaçãoIIGrauApp)
-- [ParesÍmparesApp](ParesÍmparesApp)
-- [BingoApp](BingoApp)
+- [RetanguloApp](./ListadeExercícios-POO-04/RetanguloApp)
+- [AbastecimentoApp](./ListadeExercícios-POO-04/AbastecimentoApp)
+- [EquaçãoIIGrauApp](./ListadeExercícios-POO-04/EquaçãoIIGrauApp)
+- [ParesÍmparesApp](./ListadeExercícios-POO-04/ParesÍmparesApp)
+- [BingoApp](./ListadeExercícios-POO-04/BingoApp)
 - [EscolaApp](EscolaApp)
 - [ClinicaApp](ClinicaApp)
