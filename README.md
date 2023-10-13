@@ -6,10 +6,19 @@
 
 <br>
 
-## 💻 Sobre a matéria:
+## 💻 Sobre a tecnologia:
 
 O Windows Presentation Foundation (WPF) é uma estrutura de desenvolvimento de software da Microsoft utilizada para criar aplicativos de desktop com interfaces gráficas ricas e interativas. Ele oferece um ambiente de desenvolvimento baseado em XAML (Extensible Application Markup Language), que permite a criação de interfaces de usuário personalizadas e flexíveis.
 
 O WPF oferece recursos avançados de gráficos, animações, estilos e controle de layout, tornando-o uma escolha popular para o desenvolvimento de aplicativos Windows com aparência moderna e atraente.
 
 ## 🖱️ Aplicativos desenvolvidos:
+
+- [AgendaApp](AgendaApp)
+- [RetanguloApp](RetanguloApp)
+- [AbastecimentoApp](AbastecimentoApp)
+- [EquaçãoIIGrauApp](EquaçãoIIGrauApp)
+- [ParesÍmparesApp](ParesÍmparesApp)
+- [BingoApp](BingoApp)
+- [EscolaApp](EscolaApp)
+- [ClinicaApp](ClinicaApp)
